@@ -5,7 +5,7 @@ Pfunction=function(Fv,C,n,y){
   t=(1:n)/2
   pp=rep(0,n)
   for (j in 1:n) {
-    pp=C*exp(-y[j]*t[j])
+    pp[j]=C*exp(-y[j]*t[j])
   }
   p=sum(pp)+Fv*exp(-y[n]*t[n])
   return(p)
