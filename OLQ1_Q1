@@ -1,5 +1,9 @@
 curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--triplet-stop.sh > triplet.sh
 cat triplet.sh
-vim triplet.sh
+
+echo the step of how to change the triplet.sh file has been shown on my Pdf file.
+
 echo warnning: after you download my triplet.sh file from github, you can run the next step for test the code
+
+echo Question 1 part 2 =>. test the new triplet.sh file
 ./triplet.sh 123taataa456taataa456789123456
