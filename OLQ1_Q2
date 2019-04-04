@@ -1,0 +1,2 @@
+echo warnning: after you upload the tutes.txt file by using the step that I given on my pdf file. you can run the next step.
+uniq -u tutes.txt
