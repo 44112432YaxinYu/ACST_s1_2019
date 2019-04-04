@@ -1,0 +1,14 @@
+echo before you start run the code below, you need to download my test.txt file first 
+echo and unpload to your AWS count. or you can create the test file by copy and paste my file.
+
+echo Question 3 part a
+egrep '^[^ ]+ [^ ]+ [^ ]+$' test.txt
+
+echo Question 3 part b
+egrep -e '-[0-9]+' test.txt
+
+echo Question 3 part c
+egrep '\s{1,}+[0-9]+\s{1,}|\s{1,}+-[0-9]+\s{1,}' test.txt
+
+echo Question 3 part d
+egrep -e 'hydrogenase' test.txt | egrep -v 'dehydrogenase'
