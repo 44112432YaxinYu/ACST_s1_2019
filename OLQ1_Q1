@@ -1,0 +1,3 @@
+curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--triplet-stop.sh > triplet.sh
+cat triplet.sh
+vim triplet.sh
