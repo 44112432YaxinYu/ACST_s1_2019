@@ -1,0 +1,6 @@
+python userargument.py python 
+python userargument.py @!&^%
+python userargument.py 1234
+python userargument.py Bob
+userargument.py Bob
+python userargument.py Alice Bob 
