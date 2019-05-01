@@ -1,0 +1,6 @@
+cat twain.txt
+grep -o 'Huck' twain.txt | wc -l
+grep -o 'HucK' twain.txt | wc -l
+sed -i 's/Huck/HucK/g' twain.txt
+grep -o 'HucK' twain.txt | wc -l
+grep -o 'Huck' twain.txt | wc -l
